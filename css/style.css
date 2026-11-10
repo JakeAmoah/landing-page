@@ -1,0 +1,35 @@
+body {
+    height: 100hv;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+     background-color:#1f2937;
+     color:white;
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+}
+
+ul {
+    display:flex;
+    gap:12px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero {
+    display:flex;
+}
+
+button {
+    flex-shrink: 0;
+}
+
+.divide {
+flex-wrap: wrap;
+}
